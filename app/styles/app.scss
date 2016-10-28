@@ -1,0 +1,75 @@
+$space-large: 2.5rem;
+$title-colour: #555;
+$background-color:rgba(224, 239, 250, 0.28);
+$font-color: #263238;
+$scape-background-color: #263238;
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+
+body {
+  background-color: $background-color;
+  font-family: 'Roboto Mono', monospace;
+  color: $font-color;
+}
+
+.top-bar {
+  background-color: white;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.top-bar ul {
+  background-color: white;
+}
+
+.page-title {
+  margin-top: $space-large;
+  margin-bottom: $space-large;
+  color: $title-colour;
+}
+
+input [type=search] {
+  box-shadow: none;
+}
+
+.scape {
+  margin: 2em 0em;
+  width: 100%;
+  background-color: $scape-background-color;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #CFD8DC;
+  border-radius: 4px;
+  color: white;
+}
+
+.ScapeText {
+  // margin: 1em;
+  line-height: 34px;
+}
+
+.ScapeDate {
+  display: inline;
+  padding: 0;
+  // margin: 1em;
+}
+
+.scapeHeader {
+  height:64px;
+  padding: 16px 24px;
+
+  a {
+    float: right;
+    color: white;
+  }
+}
+
+.scapeFooter {
+  height:64px;
+  padding: 16px 24px;
+
+  a {
+    float: right;
+    color: white;
+  }
+}
