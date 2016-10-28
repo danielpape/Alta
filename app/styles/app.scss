@@ -44,9 +44,22 @@ input [type=search] {
   color: white;
 }
 
+.scapeProfileImage {
+  width: 40px;
+  height: 40px;
+  background-color: #000;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: inline;
+  overflow: hidden;
+  margin-top: -4px;
+}
+
 .ScapeText {
   // margin: 1em;
   line-height: 34px;
+  display: inline;
+  margin-left: 16px;
 }
 
 .ScapeDate {
