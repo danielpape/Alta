@@ -1,11 +1,12 @@
 var React = require('react');
-var Scape= require('Scape');
+var Feed = require('Feed');
 var {Link} = require('react-router');
 
 var Profile = (props) =>{
   return(
     <div>
       <h1 className="text-center page-title">Profile</h1>
+      <Feed/>
     </div>
   )
 };

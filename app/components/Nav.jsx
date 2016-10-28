@@ -40,7 +40,7 @@ var Nav = React.createClass({
                 <input type="search" placeholder="Enter location" ref="locationBoxString"/>
               </li>
               <li>
-                <input type="submit" className="button" value="Search"/>
+                <input type="submit" className="button searchButton" value="Search"/>
               </li>
             </ul>
           </form>
