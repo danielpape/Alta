@@ -59,7 +59,10 @@ input [type=search] {
   // margin: 1em;
   line-height: 34px;
   display: inline;
-  margin-left: 16px;
+  // margin-left: 16px;
+    p {
+      margin-bottom: 0rem;
+    }
 }
 
 .ScapeDate {
@@ -76,6 +79,14 @@ input [type=search] {
     float: right;
     color: white;
   }
+
+  .ScapeText {
+    margin-left: 16px;
+
+    p {
+      margin-bottom: 0rem;
+    }
+  }
 }
 
 .scapeFooter {
@@ -85,5 +96,25 @@ input [type=search] {
   a {
     float: right;
     color: white;
+  }
+}
+
+.scapeImage{
+  width: 100%;
+}
+
+.scapeMeta{
+  background-color: #37474F;
+  padding: 16px 24px;
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+
+  a {
+    float: right;
+    color: white;
+  }
+
+  strong {
+    color:#B0BEC5;
   }
 }
