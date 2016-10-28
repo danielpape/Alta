@@ -25,7 +25,7 @@ module.exports = {
       Main: 'app/components/Main.jsx',
       Nav: 'app/components/Nav.jsx',
       Feed: 'app/components/Feed.jsx',
-      Nearby: 'app/components/Nearby.jsx',
+      About: 'app/components/About.jsx',
       Profile: 'app/components/Profile.jsx',
       Scape: 'app/components/Scape.jsx',
       openWeatherMap: 'app/api/openWeatherMap.jsx',

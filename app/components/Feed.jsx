@@ -1,8 +1,5 @@
 var React = require('react');
-var WeatherForm = require('WeatherForm');
-var WeatherMessage = require('WeatherMessage');
 var openWeatherMap = require('openWeatherMap');
-var ErrorModal = require('ErrorModal');
 var Scape = require('Scape');
 
 var Feed = React.createClass({

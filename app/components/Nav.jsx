@@ -26,10 +26,10 @@ var Nav = React.createClass({
               <IndexLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Feed</IndexLink>
             </li>
             <li>
-              <Link to="/nearby" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Nearby</Link>
+              <Link to="/profile" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Profle</Link>
             </li>
             <li>
-              <Link to="/profile" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Profile</Link>
+              <Link to="/about" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>About</Link>
             </li>
           </ul>
         </div>

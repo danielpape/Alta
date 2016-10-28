@@ -3,7 +3,7 @@ var ReactDOM = require('react-dom');
 var {Route, Router, IndexRoute, hashHistory} = require('react-router');
 var Main = require('Main');
 var Feed = require('Feed');
-var Nearby = require('Nearby');
+var About = require('About');
 var Profile = require('Profile');
 
 // Load foundation-sites
@@ -16,7 +16,7 @@ require('style!css!sass!applicationStyles')
 ReactDOM.render(
   <Router history={hashHistory}>
     <Route path="/" component={Main}>
-      <Route path="nearby" component={Nearby}/>
+      <Route path="about" component={About}/>
       <Route path="profile" component={Profile}/>
       <IndexRoute component={Feed}/>
     </Route>
