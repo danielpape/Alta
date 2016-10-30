@@ -1,6 +1,5 @@
 var React = require('react');
 var {Link,IndexLink} = require('react-router');
-var feedIcon = require('feedIcon');
 
 var Nav = React.createClass({
   onSearch: function(e){
@@ -61,7 +60,7 @@ var Nav = React.createClass({
               </svg></Link>
             </li>
             <li>
-              <Link to="/about" activeClassName="active" activeStyle={{fontWeight: 'bold'}}><svg width="48px" height="32px" viewBox="0 0 48 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+              <Link to="/upload" activeClassName="active" activeStyle={{fontWeight: 'bold'}}><svg width="48px" height="32px" viewBox="0 0 48 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
                   <defs>
                       <rect id="path-1" x="0" y="0" width="48" height="32" rx="4"></rect>
                   </defs>

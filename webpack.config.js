@@ -25,12 +25,11 @@ module.exports = {
       Main: 'app/components/Main.jsx',
       Nav: 'app/components/Nav.jsx',
       Feed: 'app/components/Feed.jsx',
-      About: 'app/components/About.jsx',
+      Upload: 'app/components/Upload.jsx',
       Profile: 'app/components/Profile.jsx',
       Scape: 'app/components/Scape.jsx',
       openWeatherMap: 'app/api/openWeatherMap.jsx',
-      applicationStyles: 'app/styles/app.scss',
-      feedIcon: 'app/components/feedIcon.jsx'
+      applicationStyles: 'app/styles/app.scss'
     },
     extensions: ['','.js','.jsx']
   },

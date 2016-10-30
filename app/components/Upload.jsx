@@ -2,7 +2,7 @@ var React = require('react');
 var {Link} = require('react-router');
 var Dropzone = require('react-dropzone');
 
-var DropzoneDemo = React.createClass({
+var Upload = React.createClass({
     onDrop: function (acceptedFiles, rejectedFiles) {
       console.log('Accepted files: ', acceptedFiles);
       console.log('Rejected files: ', rejectedFiles);
@@ -19,4 +19,4 @@ var DropzoneDemo = React.createClass({
     }
 });
 
-module.exports = DropzoneDemo;
+module.exports = Upload;
