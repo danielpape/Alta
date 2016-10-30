@@ -64,7 +64,7 @@ input [type=search] {
 }
 
 .ScapeText {
-  // margin: 1em;
+  font-size: 0.8rem;
   line-height: 34px;
   display: inline;
   // margin-left: 16px;
@@ -81,7 +81,7 @@ input [type=search] {
 
 .scapeHeader {
   height:64px;
-  padding: 16px 24px;
+  padding: 16px 16px;
 
   a {
     float: right;
@@ -99,7 +99,7 @@ input [type=search] {
 
 .scapeFooter {
   height:64px;
-  padding: 16px 24px;
+  padding: 16px 16px;
 
   a {
     float: right;

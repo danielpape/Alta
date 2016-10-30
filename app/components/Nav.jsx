@@ -23,7 +23,7 @@ var Nav = React.createClass({
               Alta
             </li>
             <li>
-              <IndexLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Feed</IndexLink>
+              <IndexLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}><img src={'./app/img/feed.png'}/></IndexLink>
             </li>
             <li>
               <Link to="/profile" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Profile</Link>
@@ -32,18 +32,6 @@ var Nav = React.createClass({
               <Link to="/about" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>About</Link>
             </li>
           </ul>
-        </div>
-        <div className="top-bar-right">
-          <form onSubmit={this.onSearch}>
-            <ul className="menu">
-              <li>
-                <input type="search" placeholder="Enter location" ref="locationBoxString"/>
-              </li>
-              <li>
-                <input type="submit" className="button searchButton" value="Search"/>
-              </li>
-            </ul>
-          </form>
         </div>
       </div>
     );
