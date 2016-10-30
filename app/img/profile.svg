@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="48px" height="32px" viewBox="0 0 48 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>Group Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="48" height="32" rx="4"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy">
+            <g id="Group">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Rectangle" fill="#90A4AE" xlink:href="#path-1"></use>
+            </g>
+            <path d="M15.0209961,29.9875488 C15.0209961,29.9875488 14.9121094,24.2177941 15.0209961,20.1073101 C15.1298828,15.9968262 20.0742188,16.1193848 20.0742188,16.1193848 L28.0974121,16.0568848 C28.0974121,16.0568848 33.0256348,16.0429687 33.0256348,20.1054688 C33.0256348,24.1679688 33.0556641,30.0986328 33.0556641,30.0986328 L15.0209961,29.9875488 Z" id="Path-5" fill="#FFFFFF"></path>
+            <circle id="Oval" fill="#FFFFFF" cx="24.0461426" cy="9.71742442" r="6"></circle>
+        </g>
+    </g>
+</svg>

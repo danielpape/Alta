@@ -16,6 +16,17 @@ body {
 .top-bar {
   background-color: white;
   border-bottom: 1px solid #dbdbdb;
+  padding: 0px;
+}
+
+.dropzone {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+}
+
+.menu > li > a{
+  padding: 8px;
 }
 
 .searchButton {

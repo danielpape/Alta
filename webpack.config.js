@@ -29,7 +29,8 @@ module.exports = {
       Profile: 'app/components/Profile.jsx',
       Scape: 'app/components/Scape.jsx',
       openWeatherMap: 'app/api/openWeatherMap.jsx',
-      applicationStyles: 'app/styles/app.scss'
+      applicationStyles: 'app/styles/app.scss',
+      feedIcon: 'app/components/feedIcon.jsx'
     },
     extensions: ['','.js','.jsx']
   },
